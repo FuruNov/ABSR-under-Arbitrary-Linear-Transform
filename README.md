@@ -1,8 +1,8 @@
-This repository is under construction.
+<span style="color:red"><strong>This repository is under construction.</strong></span>
 
 # Adaptive-Block-Sparse-Regularization-under-Arbitrary-Linear-Transform
 
-Julia code to implement LOP-$\ell_2$/$\ell_1$ALT proposed in the paper "Adaptive Block Sparse Regularization under Arbitrary Linear Transform".
+Julia code to implement LOP-l2/l1ALT proposed in the paper "Adaptive Block Sparse Regularization under Arbitrary Linear Transform".
 
 ## How to use
 
@@ -14,7 +14,7 @@ Julia code to implement LOP-$\ell_2$/$\ell_1$ALT proposed in the paper "Adaptive
 
 ### Denoise a grayscale image (Peppers)
 
-This result is obtained by running `main.jl` with the default parameters ($\lambda = 0.15$, $\alpha = 1000$).
+This result is obtained by running `main.jl` with the default parameters set in `params.toml` ($\lambda = 0.15$, $\alpha = 1000$).
 
 <table>
   <tr>
